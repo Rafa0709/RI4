@@ -1,15 +1,15 @@
 import {Telefone, Cliente, Endereco, Empresa} from "criacao";
 
-// Criar empresa
-const enderecoEmpresa = new Endereco("SP", "São José dos Campos", "Av. Andromeda", 1000);
-const empresa = new Empresa("ABC LTDA", "Mercado Online", "12345678000199", enderecoEmpresa);
+// Criando empresa
+const enderecoEmpresa = new Endereco("SP", "São José dos Campos", "Av. Andromeda", 1010);
+const empresa = new Empresa("IA3D", "Infinity Academy 3D", "12345678000199",enderecoEmpresa);
 
-// Criar clientes
+// Criando  os clientes
 const clientesDados = [
-    {nome: "João", rua: "Av Andromeda", numero: 987, ddd: ["99999999","99999999"]},
-    {nome: "Gabriel", rua: "Av Andromeda", numero: 412, ddd: ["88888888","88888888"]},
+    {nome: "Mariana", rua: "Abóbora", numero: 987, ddd: ["99999999","99999999"]},
+    {nome: "Maria Joaquina", rua: "Av Carrossel", numero: 412, ddd: ["88888888","88888888"]},
     {nome: "Barbara", rua: "Av São João", numero: 789, ddd: ["77777777","77777777"]},
-    {nome: "Márcia", rua: "Av Andromeda", numero: 452, ddd: ["66666666","66666666"]}
+    {nome: "Carl Johnson", rua: "Grove Street", numero: 452, ddd: ["66666666","66666666"]}
 ];
 
 for (const dados of clientesDados) {
@@ -23,5 +23,4 @@ for (const dados of clientesDados) {
     empresa.clientes.add(cliente);
 }
 
-// Mostrar detalhes
 console.log(empresa.detalhe());
