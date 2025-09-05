@@ -1,0 +1,15 @@
+{
+  "name": "usandomodulo",
+  "version": "1.0.0",
+  "description": "Modulo para importar os objetos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael",
+  "license": "ISC",
+  "dependencies": {
+    "criacao": "file:../criacao"
+  }
+}

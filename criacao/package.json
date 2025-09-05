@@ -1,0 +1,12 @@
+{
+  "name": "criacao",
+  "version": "1.0.0",
+  "description": "Criador dos objetos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pablo Rafael",
+  "license": "ISC"
+}
